@@ -6,12 +6,12 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: Build jjz
 
 on: 
-  # push: 
-  #   branches:
-  #     - master
+  push: 
+   branches:
+     - master
   schedule:
     - cron: 0 16 * * 6
   watch:
